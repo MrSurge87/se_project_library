@@ -188,31 +188,26 @@
 }
 
 .person_name_feynman {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   right: 216px;
   bottom: 18px;
 }
 
 .person_name_mitchell {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   left: 142px;
   bottom: 82px;
 }
 
 .person_name_tarter {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   top: 79px;
   left: 159px;
 }
@@ -265,7 +260,7 @@
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
-.staff__card {
+.staff__cards {
   max-width: 760px;
   margin-top: 68px;
   margin-left: auto;
