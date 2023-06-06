@@ -40,7 +40,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -55,6 +55,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .header__description {
@@ -62,6 +63,7 @@
   margin-top: 32px;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -236,7 +238,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url("/images/staff_picks_background.jpg");
+  background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -270,6 +272,7 @@
   column-gap: 40px;
   row-gap: 40px;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .card {
@@ -384,6 +387,14 @@
   margin-left: 120px;
 }
 
+.about__paragraph {
+  margin-bottom: 32px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__content:last-of-type {
   margin-bottom: 0;
 }
@@ -440,6 +451,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
 }
 
 .footer__column-link {
